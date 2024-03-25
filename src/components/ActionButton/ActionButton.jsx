@@ -3,6 +3,7 @@ import * as s from "./ActionButton.styled.js";
 
 const ActionButton = () => {
   const [isChecked, setIsChecked] = useState(false);
+  console.log(isChecked);
 
   const handleCheckboxChange = (e) => {
     setIsChecked(e.target.checked);
